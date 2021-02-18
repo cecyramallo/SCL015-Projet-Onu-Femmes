@@ -670,7 +670,7 @@ ul li{
 } */
 
 .mini{
-    left: -130px;
+    left: -200px;
   }
    #navbar-style{
     bottom: 0%;
@@ -705,4 +705,8 @@ ul li a {
 
 ul li a:focus{
     color: #de7c88;
+}
+
+.dropdown-item{
+    font-size: 16px;
 }
