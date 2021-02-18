@@ -5,7 +5,7 @@ export const communitySearch = () => {
         <img  id="oportunidad-logo" src="./assets/logo.png"></div>
         <div class="community-arrow">
         <img src="./assets/left-arrow.png" id="icon-arrow">
-        <p id="text-community">Community</p>
+        <p id="text-community">Communauté</p>
         </div>
         <input type="search" id="SearchUser">
     `;

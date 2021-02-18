@@ -598,7 +598,7 @@ p{
 }
 
 .mini{
-    left: -130px;
+    left: -170px;
 }
 
   /* Página de editar perfil*/
@@ -649,12 +649,7 @@ p{
     box-shadow: rgba(0,0,0,.125);
 }
 
-  
-
-  .mini{
-    left: -130px;
-  }
-   #navbar-style{
+#navbar-style{
   /* justify-content: space-around; */
   bottom: 0%;
   display: flex;

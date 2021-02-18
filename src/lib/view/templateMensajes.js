@@ -3,7 +3,7 @@ export const inbox = () => {
     const viewInbox = `
         <p>Messages</p>
         <a href="#/send"><input type="image" id="Logo-TuOportunidad"></a>
-        <p><button id="group-button">+</button>Create new group</p>
+        <p><button id="group-button">+</button>Créez un nouveau groupe</p>
     `;
     divInbox.innerHTML = viewInbox;
     const loginForm = divInbox.querySelector('#group-button');

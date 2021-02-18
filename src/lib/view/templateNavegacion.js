@@ -4,8 +4,8 @@ export const navBar = () => {
       <footer class="footer">
       <div id="navbar-style">
       <ul>
-      <li><a id="nav-channels" class="nav-buttons" href="#/channels">Channels</a></li>
-      <li> <a id="nav-community" class="nav-buttons" href="#/community">Community</a></li>
+      <li><a id="nav-channels" class="nav-buttons" href="#/channels">Canaux</a></li>
+      <li> <a id="nav-community" class="nav-buttons" href="#/community">Communauté</a></li>
       <li> <a id="nav-inbox" class="nav-buttons" href="#/inbox">Messages</a></li>
       </ul>
       </div>

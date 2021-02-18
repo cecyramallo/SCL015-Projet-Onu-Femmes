@@ -5,28 +5,28 @@ export const signUp = () => {
         <img  id="oportunidad-logo" src="./assets/logo.png"> 
         <img  id="onu-logo"  src="./assets/un.women.png">
         </div>
-        <p id="Registry">Sign up</p>
+        <p id="Registry">Inscrivez-vous</p>
         <div class="input-placeholder">
-        <input type="text" placeholder="First name" id="text-name" class="name-surname">
-        <input type="text" placeholder="Last name" id="text-surname" class="name-surname">
+        <input type="text" placeholder="Prénom" id="text-name" class="name-surname">
+        <input type="text" placeholder="Nom" id="text-surname" class="name-surname">
         </div>
-        <select name="Regions" id="region">Regiones
+        <select name="Regions" id="region">Régions
         <option value="0" selected disabled>Zone</option>
-        <option value="Norte">North Zone</option></div>
-        <option value="Centro">Central Zone</option></div>
-        <option value="Sur">South Zone</option></div>
+        <option value="Norte">Zone Nord</option></div>
+        <option value="Centro">Zone Centrale</option></div>
+        <option value="Sur">Zone Sud</option></div>
         </select></div>
         <select id="city">
-        <option value="0" selected disabled id="color-city">City</option>
+        <option value="0" selected disabled id="color-city">Ville</option>
         <option value="Ant">Antofagasta</option></div>
         <option value="Met">Santiago</option></div>
         <option value="Ara">Temuco</option></div>
         </select></div>
-        <div class="input-placeholder"><input type="email" placeholder="Email" id="text-mail"></div>
-        <div class="input-placeholder"><input type="password" placeholder="Password" id="text-password"></div>
-        <div class="input-placeholder"><input type="password" placeholder="Confirm password" id="text-repeat-password"></div>
-        <p id="conditions">By clicking "Sign up" you agree to our Conditions, Data Policy and Cookies Policy</p>
-        <button id="signup-button">Sign up</button>
+        <div class="input-placeholder"><input type="email" placeholder="Adresse e-mail" id="text-mail"></div>
+        <div class="input-placeholder"><input type="password" placeholder="Mot de passe" id="text-password"></div>
+        <div class="input-placeholder"><input type="password" placeholder="Confirmez le mot de passe" id="text-repeat-password"></div>
+        <p id="conditions">En cliquant sur «S'inscrire», vous acceptez nos conditions, notre politique de données et notre politique de cookies</p>
+        <button id="signup-button">S'inscrire</button>
     `;
     divSignUp.innerHTML = viewSignUp;
     const loginForm = divSignUp.querySelector('#signup-button');

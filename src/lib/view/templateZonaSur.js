@@ -7,9 +7,9 @@ export const south = () => {
         <p id="text-community">Community</p>
         </a>
         </div>
-        <p>Welcome to the south zone!!</p>
+        <p>Bienvenue à la zone sud!</p>
         <input type="search">
-        <p>South Zone</p>
+        <p>Zone Sud</p>
         <a href="#/profile"><input type="image" id="Logo-TuOportunidad"></a>
     `;
     divSouth.innerHTML = viewSouth;

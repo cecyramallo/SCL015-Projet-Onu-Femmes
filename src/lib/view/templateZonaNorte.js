@@ -4,12 +4,12 @@ export const north = () => {
         <div class="community-arrow">
         <a class="navbar-brand" href="#/community">
         <img src="./assets/left-arrow.png" id="icon-arrow">
-        <p id="text-community">Community</p>
+        <p id="text-community">Communauté</p>
         </a>
         </div>
-        <p>Welcome to the north zone!!</p>
+        <p>Bienvenue à la zone nord!</p>
         <input type="search">
-        <p>North Zone</p>
+        <p>Zone Nord</p>
         <a href="#/profile"><input type="image" id="Logo-TuOportunidad"></a>
     `;
     divNorth.innerHTML = viewNorth;

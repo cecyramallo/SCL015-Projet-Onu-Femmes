@@ -9,7 +9,7 @@ export const profile = () => {
         <p></p>
         <p></p>
         <p></p>
-        <button id="sendmessage-button">Send message</button>
+        <button id="sendmessage-button">Envoyer message</button>
     `;
     divProfile.innerHTML = viewProfile;
     const loginForm = divProfile.querySelector('#sendmessage-button');

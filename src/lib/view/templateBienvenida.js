@@ -3,12 +3,12 @@ export const welcome = () => {
     const viewWelcome = `
       <div class"welcome">
         <img src="./assets/lightBlue.jpg" class="fondo-welcome">
-        <p id="text-welcome" >Welcome</p>
+        <p id="text-welcome" >Bienvenue</p>
         <img src="./assets/logo.png" class="logo-bienvenida">
         <p class="english"><a href="https://cecyramallo.github.io/SCL015-Project-UN-Women/src/" id="english" >English</a></p>
         <p class="french"><a href="#/" id="french" >Français</a></p>
         <p class="spanish"><a href="https://cecyramallo.github.io/SCL015-Proyecto-Onu-Mujeres/src/" id="spanish" >Español</a></p>
-        <button id="enter-button">Start</button> </div>
+        <button id="enter-button">Commencer</button> </div>
        
     `;
     divWelcome.innerHTML = viewWelcome;

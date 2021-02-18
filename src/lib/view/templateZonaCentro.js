@@ -4,12 +4,12 @@ export const center = () => {
         <div class="community-arrow">
         <a class="navbar-brand" href="#/community">
         <img src="./assets/left-arrow.png" id="icon-arrow">
-        <p id="text-community">Community</p>
+        <p id="text-community">Communauté</p>
         </a>
         </div>
-        <p>Welcome to the central zone!</p>
+        <p>Bienvenue à la zone centrale!</p>
         <input type="search">
-        <p>Zona Central</p>
+        <p>Zone Centrale</p>
         <a href="#/profile"><input type="image" id="Logo-TuOportunidad"></a>
     `;
     divCenter.innerHTML = viewCenter;

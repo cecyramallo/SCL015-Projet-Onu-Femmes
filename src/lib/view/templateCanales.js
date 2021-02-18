@@ -2,7 +2,7 @@ export const channels = () => {
   const divChannels = document.createElement("div");
   const viewChannels = `
       <div class:"logos"> 
-      <p id="text-channel">Channels</p>
+      <p id="text-channel">Canaux</p>
       <a href="#/createchannel"><img src="./assets/plus-pink.png" id="plus-pink"></a><br>
       <input type="search" class="search-channel">
       <div id="Box-channels"></div>

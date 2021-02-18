@@ -15,10 +15,10 @@ export const menu = () => {
                 </div>
               </a>
               <ul class="dropdown-menu mini" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="#/editprofile">Edit profile</a></li>
-                <li><a class="dropdown-item" href="#/language">Language settings</a></li>
-                <li><a class="dropdown-item" href="#/inbox">Help</a></li>
-                <li><a class="dropdown-item" href="#/">Log out</a></li>
+                <li><a class="dropdown-item" href="#/editprofile">Editez votre profil</a></li>
+                <li><a class="dropdown-item" href="#/language">Paramètres linguistiques</a></li>
+                <li><a class="dropdown-item" href="#/inbox">Aide</a></li>
+                <li><a class="dropdown-item" href="#/">Déconnexion</a></li>
               </ul>
             </li>
           </ul>

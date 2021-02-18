@@ -8,11 +8,11 @@ export const createChannelCard = () => {
         <div class="card">
           <div class="card-body">
 
-            <p id="create-title" class="h4">Enter channel's info</p>
+            <p id="create-title" class="h4">Écrivez l'information du canal</p>
 
             <form id="channels-form">
               <div class="form-group">
-                <input type="text" id="channel-title" class="form-control" class="Task Title" placeholder="Channel's name"
+                <input type="text" id="channel-title" class="form-control" class="Task Title" placeholder="Nom du canal"
                   autofocus>
               </div>
               <div class="form-group">
@@ -20,7 +20,7 @@ export const createChannelCard = () => {
               </div>
 
               <button type="button" class="btn btn-create" id="btn-send-form">
-                Create
+                Créer
               </button>
 
             </form>
@@ -76,7 +76,7 @@ export const createChannels = () => {
       <div id="crea-channel-arrow">
       <a class="navbar-brand" href="#/channels">
       <img src="./assets/left-arrow.png" id="channel-arrow">
-      <p id="text-create">Add a new channel</p>
+      <p id="text-create">Créez un nouveau canal</p>
       </a>
       </div>
       <img src="" alt="">

@@ -4,23 +4,23 @@ export const editProfile = () => {
     
         <div class="arrow-img-profile"> 
         <img src="./assets/left-arrow.png" id="arrow-profile">
-        <p id="edit-profile"> Edit your profile</p>
+        <p id="edit-profile">Modifier votre profil</p>
         </div>
         <img src="./assets/profile-img1.png" id="img-profile">
-        <input class="ph-edit-profile" type="text" placeholder="First name">
-        <input class="ph-edit-profile" type="text" placeholder="Last name">
-        <input class="ph-edit-profile" type="text" placeholder="What do I do?">
+        <input class="ph-edit-profile" type="text" placeholder="Prénom">
+        <input class="ph-edit-profile" type="text" placeholder="Nom">
+        <input class="ph-edit-profile" type="text" placeholder="Qu'est-ce que je fais?">
         <select class="select-edit-profile"  name="Regions">Zones
         <option class="select-edit-profile" value="0" selected disabled>Zones</option>
-        <optgroup label="North Zone"></optgroup>
+        <optgroup label="Zone Nord"></optgroup>
         <option value="Ant">Antofagasta</option>
-        <optgroup label="Central Zone"></optgroup>
+        <optgroup label="Zone Centrale"></optgroup>
         <option value="Met">Metropolitana</option>
-        <optgroup label="South Zone"></optgroup>
+        <optgroup label="Zone Sud"></optgroup>
         <option value="Ara">Araucanía</option>
         </select>
-        <input class="ph-edit-profile" type="text" placeholder="City">
-        <button id="save-changes">Save changes</button>
+        <input class="ph-edit-profile" type="text" placeholder="Ville">
+        <button id="save-changes">Enregistrer</button>
     `;
     divEditProfile.innerHTML = viewEditProfile;
     const loginForm = divEditProfile.querySelector('#save-changes');
